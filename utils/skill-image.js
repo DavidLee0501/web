@@ -56,6 +56,8 @@ import premierepro from '/public/svg/skills/premierepro.svg';
 import python from '/public/svg/skills/python.svg';
 import pytorch from '/public/svg/skills/pytorch.svg';
 import react from '/public/svg/skills/react.svg';
+import redux from '/public/svg/skills/redux.svg';
+import laravel from '/public/svg/skills/laravel.svg';
 import ruby from '/public/svg/skills/ruby.svg';
 import selenium from '/public/svg/skills/selenium.svg';
 import sketch from '/public/svg/skills/sketch.svg';
@@ -72,6 +74,7 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
+import express from '/public/svg/skills/express.svg';
 
 
 export const skillsImage = (skill) => {
@@ -79,7 +82,7 @@ export const skillsImage = (skill) => {
   switch (skillID) {
     case 'gcp':
       return gcp;
-    case 'html':
+    case 'html5':
       return html;
     case 'photoshop':
       return photoshop;
@@ -97,17 +100,23 @@ export const skillsImage = (skill) => {
       return angular;
     case 'javascript':
       return javascript;
-    case 'next js':
+    case 'next.js':
       return nextJS;
-    case 'nuxt js':
+    case 'nuxt':
       return nuxtJS;
     case 'react':
+      return react;
+    case 'redux':
+      return redux;
+    case 'laravel':
+      return laravel;
+    case 'reactnative':
       return react;
     case 'svelte':
       return svelte;
     case 'typescript':
       return typescript;
-    case 'vue':
+    case 'vue.js':
       return vue;
     case 'bootstrap':
       return bootstrap;
@@ -125,7 +134,7 @@ export const skillsImage = (skill) => {
       return mysql;
     case 'postgresql':
       return postgresql;
-    case 'tailwind':
+    case 'tailwindcss':
       return tailwind;
     case 'vitejs':
       return vitejs;
@@ -139,7 +148,7 @@ export const skillsImage = (skill) => {
       return csharp;
     case 'dart':
       return dart;
-    case 'go':
+    case 'golang':
       return go;
     case 'java':
       return java;
@@ -175,7 +184,7 @@ export const skillsImage = (skill) => {
       return graphql;
     case 'lightroom':
       return lightroom;
-    case 'materialui':
+    case 'material-ui':
       return materialui;
     case 'nginx':
       return nginx;
@@ -225,6 +234,8 @@ export const skillsImage = (skill) => {
       return wolframalpha;
     case 'canva':
       return canva;
+    case 'express':
+      return express;
     default:
       break;
   }

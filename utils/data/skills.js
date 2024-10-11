@@ -1,29 +1,39 @@
 export const skillsData = [
-  'HTML',
-  'CSS',
-  'Javascript',
-  'Typescript',
-  'React',
-  'Next JS',
-  'Tailwind',
-  'MongoDB',
-  'MySQL',
-  'PostgreSQL',
-  'Git',
-  'AWS',
-  'Bootstrap',
-  'Docker',
-  'Go',
-  'Figma',
-  'Firebase',
-  'MaterialUI',
-  'Nginx',
-  'Strapi'
-]
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "ReactNative",
+  "Redux",
+  "Next.js",
+  "Vue.js",
+  "Nuxt",
+  "Angular",
+  "Fastify",
+  "PHP",
+  "Laravel",
+  "Python",
+  "Django",
+  "GraphQL",
+  "Java",
+  "Golang",
+  "Html5",
+  "CSS",
+  "Bootstrap",
+  "TailwindCSS",
+  "Material-ui",
+  "Swift",
+  "Flutter",
+  "AWS",
+  "Azure",
+  "Git",
+  "MySQL",
+  "MongoDB",
+  "Docker",
+  "Express",
+];
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
 // Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
-
 
 // AVAILABLE SKILLS
 
