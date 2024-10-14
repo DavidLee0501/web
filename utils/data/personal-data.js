@@ -1,6 +1,6 @@
 export const personalData = {
   name: "David Lee Estrada",
-  profile: '/profile.png',
+  profile: 'profile.png',
   designation: "Software Developer",
   description: "Dynamic and results-driven web and mobile developer with over 8 years of experience in designing, developing, and deploying innovative applications. Proficient in a wide range of technologies, including JavaScript, TypeScript, React, Vue.js, PHP, Laravel, Python, Flask, Django, MySQL, React Native, Kotlin, and Flutter. Experienced in collaborating with cross- functional teams to deliver high-quality solutions that meet business objectives and enhance user experiences. My rich background in startups has honed my ability to adapt quickly, embrace challenges, and drive project success in fast-paced settings. Committed to continuous learning and improvement, I am a proactive team player who thrives in collaborative environments where innovation flourishes.",
   email: 'davidleeestrada0501@gmail.com',
